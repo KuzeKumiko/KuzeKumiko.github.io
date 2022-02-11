@@ -96,6 +96,28 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 
 如果你没有备份原系统分区 那么你可以**修改开机脚本**来卡第一屏 然后让学校管理员给你刷机
 
+### 领创（不丢登录信息）强降级
+
+1.领创退出登录 **断网** 重启至TWRP
+
+2.Mount里把System挂载（只读就行）
+
+3.Advanced-File Manager进入文件管理
+
+4.到/data/app/目录下 删除所有**不是包名**开头的文件夹
+
+5.到system_root/system/app/GuardSecure/目录下 复制GuardSecure.apk到/data/app/com.android.launcher3-***/目录
+
+6.到/data/app/com.android.launcher3-***/目录下 删除base.apk 重命名GuardSecure.apk为base.apk即可
+
+7.重启 即可用密码登录领创管理员
+
+也可以自行准备领创安装包 但版本**不能小于**系统自带的领创
+
+### 谷歌套件（GAPPS）
+
+推荐[NikGApps](https://nikgapps.com/)卡刷即可
+
 ### 推荐使用的[GSI](https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list)
 
 已知TB-X505F为**A/B分区** 其他平板请自测
@@ -105,6 +127,12 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 [dotOS 安卓11 官方构建](https://www.droidontime.com/devices/arm64)
 
 [Resurrection Remix 安卓10 构建:RobotHanzo](https://sourceforge.net/projects/resurrection-remix-q-gsi/files/)
+
+### GSI需要用到的软件
+
+[CaptiveMgr清除x和!](https://www.coolapk.com/apk/tech.evlsoc.captivemgr) 
+
+[NTP服务修改器](https://www.coolapk.com/apk/org.starx_software_lab.ntp_server_changer)
 
 ### 友情链接
 
