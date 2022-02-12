@@ -40,7 +40,7 @@
 
 如果你想在刷机后刷回到学习系统 请用qfil备份**boot system vendor vbmeta vbmetabak recovery(可选)**等分区
 
-详情可见[YoungToday/Lenovotabunlock](YoungToday/Lenovotabunlock)
+详情可见[YoungToday/Lenovotabunlock](https://github.com/YoungToday/Lenovotabunlock)
 
 1.电脑安装好9008驱动 打开qfil
 
@@ -106,7 +106,7 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 
 4.到/data/app/目录下 删除所有**不是包名**开头的文件夹
 
-5.到system_root/system/app/GuardSecure/目录下 复制GuardSecure.apk到/data/app/com.android.launcher3-***/目录
+5.到/system_root/system/app/GuardSecure/目录下 复制GuardSecure.apk到/data/app/com.android.launcher3-***/目录
 
 6.到/data/app/com.android.launcher3-***/目录下 删除base.apk 重命名GuardSecure.apk为base.apk即可
 
@@ -140,6 +140,10 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 
 [领创获取设备密码](https://github.com/KuzeKumiko/Lenovo_tb_x505f_StudyNM/raw/main/getpwd.exe)
 
+[其他学习平板解控](https://github.com/YoungToday/rc)
+
 [勇士，欢迎你来到讯飞平板资源下载站](https://magisk-root.github.io/)
+
+[linspirer eploits](https://github.com/YoungToday/lspirer-vulnexp)
 
 [LinspirerAppStoreEnumerator](https://github.com/F-Unction/LinspirerAppStoreEnumerator)
