@@ -88,13 +88,21 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 
 1.将Magisk的apk文件命名为`uninstall.zip`在TWRP卡刷
 
-2.TWRP刷入[Riru](https://github.com/RikkaApps/Riru/releases)（会和Zygote冲突）
+2.TWRP刷入[Riru](https://github.com/RikkaApps/Riru/releases)（会和修改Zygote的程序冲突）
 
 3.qfil重新刷机
 
 ### 正常系统刷回学习系统
 
 如果你没有备份原系统分区 那么你可以**修改开机脚本**来卡第一屏 然后让学校管理员给你刷机
+
+### 学习系统干掉管控
+
+刷入[此面具模块（感谢th7实现）](https://github.com/KuzeKumiko/Lenovo_tb_x505f_StudyNM/raw/main/%5B%E6%A8%A1%E5%9D%97%5D%E4%BC%AA%E8%A3%85%E6%9C%BA%E5%9E%8B%E4%B8%BA%E5%8D%8E%E4%B8%BAMatePad%2011_v2_th7.zip)即可
+
+原理：让领创以为平板为华为设备 从而不执行联想管控方案
+
+缺点：会获取不到SN 部分教育app无法登录
 
 ### 领创（不丢登录信息）强降级
 
@@ -104,7 +112,7 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 
 3.Advanced-File Manager进入文件管理
 
-4.到/data/app/目录下 删除所有**不是包名**开头的文件夹
+4.到/data/app/目录下 删除所有**以"vmdl"开头**的文件夹
 
 5.到/system_root/system/app/GuardSecure/目录下 复制GuardSecure.apk到/data/app/com.android.launcher3-***/目录
 
@@ -137,6 +145,8 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 ### 友情链接
 
 [有问题欢迎在此提问](https://www.baidu.com/)
+
+[一些好玩的](https://github.com/KuzeKumiko/Lenovo_tb_x505f_StudyNM)
 
 [领创获取设备密码](https://github.com/KuzeKumiko/Lenovo_tb_x505f_StudyNM/raw/main/getpwd.exe)
 
