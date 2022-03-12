@@ -96,7 +96,17 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 
 如果你没有备份原系统分区 那么你可以**修改开机脚本**来卡第一屏 然后让学校管理员给你刷机
 
-### 学习系统干掉管控
+### 学习系统内整活
+
+#### 替换全功能设置
+
+如果你的设备满足**tb-x505f安卓10**
+
+那么你可以刷入[此面具模块（感谢th7实现）](https://github.com/KuzeKumiko/Lenovo_tb_x505f_StudyNM/raw/main/%5B%E6%A8%A1%E5%9D%97%5Dtb-x505f%E5%AE%89%E5%8D%9310%E8%AE%BE%E7%BD%AE%E6%9B%BF%E6%8D%A2_th7.zip)来使用原版设置
+
+你可能需要***一些方法***来打开开发者选项
+
+#### 干掉管控
 
 刷入[此面具模块（感谢th7实现）](https://github.com/KuzeKumiko/Lenovo_tb_x505f_StudyNM/raw/main/%5B%E6%A8%A1%E5%9D%97%5D%E4%BC%AA%E8%A3%85%E6%9C%BA%E5%9E%8B%E4%B8%BA%E5%8D%8E%E4%B8%BAMatePad%2011_v2_th7.zip)即可
 
