@@ -24,7 +24,7 @@
 
 [运行库](https://www.ghxi.com/yxkhj.html)
 
-[Rescue and Smart Assistant (LMSA) 下载原厂系统](https://download.lenovo.com/lsa/Releases/Rescue_and_Smart_Assistant_v5.9.2.4_prod_setup.exe)/[TB-X505F_S001142_210804_ROW高速直链（请使用单线程下载）](https://service-jg4dbh40-1309432354.hk.apigw.tencentcs.com/release/SCFOnedriveIndex-1643191796/OD01/Firmware/Lenovo%20TB-X505F/TB-X505F_S001142_210804_ROW.zip)/[镜像站](https://mirrors.lolinet.com/)
+[Rescue and Smart Assistant (LMSA) 下载原厂系统](https://download.lenovo.com/lsa/Releases/Rescue_and_Smart_Assistant_v5.9.2.4_prod_setup.exe)/[TB-X505F_S001142_210804_ROW高速直链（请使用单线程下载）](https://th7sdrive.herokuapp.com/OD01/Firmware/Lenovo%20TB-X505F/TB-X505F_S001142_210804_ROW.zip)/[镜像站](https://mirrors.lolinet.com/)
 
 **脑子（重要）**
 
@@ -94,7 +94,9 @@ TWRP将Magisk修补的文件刷入Boot分区即可
 
 ### 正常系统刷回学习系统
 
-如果你没有备份原系统分区 那么你可以**修改开机脚本**来卡第一屏 然后让学校管理员给你刷机
+*如果你没有备份原系统分区 那么你可以**修改开机脚本**来卡第一屏 然后让学校管理员给你刷机*
+
+或刷入[此模块（卡开机第一屏）](https://github.com/KuzeKumiko/Lenovo_tb_x505f_StudyNM/raw/main/%5B%E6%A8%A1%E5%9D%97%5D%E5%8D%A1%E7%AC%AC%E4%B8%80%E5%B1%8F_th7.zip)
 
 ### 学习系统内整活
 
